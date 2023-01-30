@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    @apply text-lg
+    @apply text-lg text-black;
 }
 
 .projects img {
@@ -16,19 +16,19 @@ body {
 
 /* color */
 .bg-primary {
-    background: #0F172A;
+    background: #FFFF;
 }
 
 .bg-secondery {
-    background: #1E293B;
+    background: #FFFF;
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #FFFF;
 }
 
 .text-accent {
-    color: #7477FF;
+    color: black;
 }
 
 
@@ -37,11 +37,11 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    @apply text-pink-500;
 }
 
 .mobile-nav {
-    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-pink-300 duration-500;
 }
 
 
@@ -49,6 +49,7 @@ nav li a:hover {
 h1 {
     font-family: 'Pacifico', cursive;
     line-height: 1.5 !important;
+    color: black;
 }
 
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineHome } from "react-icons/ai";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -7,30 +7,25 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-gray-300 text-black fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
-        Amrin
+      <AiOutlineHome size={30} /> 
       </a>
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
-            <a href="/#about">About</a>
+            <a href="/#about">Sobre mi</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects">Proyectos</a>
           </li>
           <li>
-            <a href="/#blog">Blog</a>
+            <a href="/#blog">Skills</a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://drive.google.com/file/d/1ugumpTwoA8vtAAWw2ezI0CZP2IGUwPzF/view" target="_blank" without rel="noreferrer">
-              Resume
-            </a>
+            <a href="/#contact">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -41,19 +36,16 @@ const Header = () => {
       >
         <ul className="flex flex-col">
           <li>
-            <a href="/#about">About</a>
+            <a href="/#about">Sobre mi</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects">Proyectos</a>
           </li>
           <li>
-            <a href="/#blog">Blog</a>
+            <a href="/#blog">Skills</a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="/#resume">Resume</a>
+            <a href="/#contact">Contacto</a>
           </li>
         </ul>
       </nav>
