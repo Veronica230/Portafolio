@@ -1,7 +1,7 @@
 import React from "react";
 
 const Blog = () => {
-  const skills = ['React JS', 'Javascript', 'CSS', 'HTML', 'GIT', 'PHP', 'AWS', 'MYSQL'];
+  const skills = ['React JS', 'Javascript', 'CSS', 'HTML', 'GIT', 'PHP', 'AWS', 'MYSQL', 'React Native', 'Node', 'Material UI'];
 
   return (
     <section className="bg-primary text-black px-5 py-14" id="blog">

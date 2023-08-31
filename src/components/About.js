@@ -11,7 +11,7 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Estudiante próxima a egresar de la carrera de Ingeniera en Tecnologías de la Información y Comunicación. Buscando una oportunidad laboral para poder demostrar mis habilidades, con total compromiso, siempre motivada a aprender nuevas tecnologías.
+           Recien egresada de la carrera de Ingeniera en Tecnologías de la Información y Comunicación. Buscando una oportunidad laboral para poder demostrar mis habilidades, con total compromiso, siempre motivada a aprender nuevas tecnologías. Con seis meses de experencia trabajando con tecnologías web para el desarrollo de aplicaciones modernas del ramo fintech.
           </p>
         </div>
 
